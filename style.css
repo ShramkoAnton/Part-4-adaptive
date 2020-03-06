@@ -204,7 +204,7 @@
     margin: 0;
     padding-left: 0.5rem;
     text-align: justify;
-    width: 284px;
+    width: 311px;
 }
 
 .posts-paragraph-footer {
@@ -400,15 +400,15 @@
         display: flex;
         justify-content: center;
     }
-    /*.footer {*/
-    /*    background-color: #6D3D99;*/
-    /*    color: #FFFFFF;*/
-    /*    height: 115px;*/
-    /*    width: 1870px;*/
-    /*    text-align: center;*/
-    /*    line-height: 100px;*/
-    /*    font-family: 'Roboto', sans-serif;*/
-    /*}*/
+    .footer {
+        background-color: #6D3D99;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        height: 115px;
+        line-height: 100px;
+        text-align: center;
+        width: 1080px;
+    }
 
 }
 
