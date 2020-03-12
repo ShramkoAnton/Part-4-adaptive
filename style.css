@@ -697,7 +697,7 @@
         display: flex;
         filter: brightness(60%);
         width: 101%;
-        height: 500px;
+        height: 408px;
         overflow: hidden;
         min-width: 300px;
         padding-bottom: 2rem;
@@ -755,6 +755,22 @@
         flex-direction: column;
     }
 
+    .post-upper-line__head {
+        width: 10%;
+    }
+
+    .post-upper-line__head-yellow {
+        width: 10%;
+    }
+
+    .post-upper-line__head2 {
+        width: 100%;
+    }
+
+    .post-upper-line__head3 {
+        width: 100%;
+    }
+
     .posts-lower {
         flex-direction: column;
     }
@@ -777,14 +793,134 @@
         margin: -10% 0 -18% 0;
         width: 100%;
     }
-
-
-
-
-
+    .images__lemur {
+        width: 100%;
+        margin: -10% 0 -10% 0;
+    }
 
     .services {
         flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+
+    .services-info {
+        margin-top: 1rem;
+    }
+
+    .services-content {
+        width: 320px;
+    }
+
+    .services-central-content__p {
+        width: 267px;
+    }
+
+    .up-posts-bottom3 {
+        width: 187px;
+    }
+
+    .footer-lines {
+        padding-top: 5%;
+        width: 101%;
+    }
+
+    .footer-images {
+        justify-content: left;
+    }
+
+    .footer-images__image1 {
+        height: 53px;
+        margin: 1%;
+        width: 50px;
+    }
+
+    .footer-images__image2 {
+        height: 53px;
+        margin: 1%;
+        width: 53px;
+    }
+
+    .footer-images__image3 {
+        height: 48px;
+        margin: 1%;
+        width: 94px;
+        padding-top: 1%;
+    }
+
+    .footer-images__image4 {
+        height: 53px;
+        margin: 1%;
+        width: 71px;
+    }
+
+    .footer-images__image5 {
+        height: 37px;
+        margin: 1%;
+        width: 60px;
+        padding-top: 2%;
+    }
+
+    .footer {
+        width: 101%;
+    }
+}
+
+@media only screen and (width: 812px) and (orientation: landscape) {
+
+
+    .line {
+        width: 136%;
+    }
+
+    .frame {
+        width: 130%;
+    }
+
+    .square {
+        left: 23px;
+        top: 50px;
+    }
+
+    .logo {
+        left: 47px;
+        top: 60px;
+    }
+
+    .input {
+        left: 876px;
+        top: 62px;
+    }
+
+    .go {
+        left: 1034px;
+        top: 63px;
+    }
+
+    .menu {
+        padding-left: 2.4%;
+    }
+
+    .image {
+        padding-left: 2.4%;
+    }
+
+    .head-text {
+        /* Aliquam pharetra vulputate */
+        left: 50px;
+        top: 242px;
+    }
+
+    .head-content {
+        left: 50px;
+        top: 380px;
+    }
+
+    .posts {
+        padding-left: 3.4%;
+    }
+
+    .services {
         padding-left: 3.4%;
     }
 
@@ -805,94 +941,10 @@
     }
 
     .footer-images {
-        flex-direction: column;
         padding-left: 3.4%;
     }
 
     .footer {
-        width: 101%;
+        width: 136%;
     }
 }
-
-/* mobile */
-/*@media screen and (max-width: 767px) {*/
-/*    .line {*/
-/*        width: 362%;*/
-/*    }*/
-
-/*    .frame {*/
-/*        width: 350%;*/
-/*    }*/
-
-/*    .square {*/
-/*        left: 31px;*/
-/*        top: 50px;*/
-/*    }*/
-
-/*    .logo {*/
-/*        left: 55px;*/
-/*        top: 60px;*/
-/*    }*/
-
-/*    .input {*/
-/*        left: 1162px;*/
-/*        top: 60px;*/
-/*    }*/
-
-/*    .go {*/
-/*        left: 1320px;*/
-/*        top: 61px;*/
-/*    }*/
-
-/*    .menu {*/
-/*        padding-left: 2.4%;*/
-/*    }*/
-
-/*    .image {*/
-/*        padding-left: 2.4%;*/
-/*    }*/
-
-/*    .head-text {*/
-/*        !* Aliquam pharetra vulputate *!*/
-/*        left: 50px;*/
-/*        top: 242px;*/
-/*    }*/
-
-/*    .head-content {*/
-/*        left: 50px;*/
-/*        top: 380px;*/
-/*    }*/
-
-/*    .posts {*/
-/*        padding-left: 3.4%;*/
-/*    }*/
-
-/*    .services {*/
-/*        padding-left: 3.4%;*/
-/*    }*/
-
-/*    .services-content {*/
-/*        width: 320px;*/
-/*    }*/
-
-/*    .services-central-content__p {*/
-/*        width: 267px;*/
-/*    }*/
-
-/*    .up-posts-bottom3 {*/
-/*        width: 187px;*/
-/*    }*/
-
-/*    .footer-lines {*/
-/*        padding-left: 3.4%;*/
-/*    }*/
-
-/*    .footer-images {*/
-/*        padding-left: 3.4%;*/
-/*    }*/
-
-/*    .footer {*/
-/*        width: 362%;*/
-/*    }*/
-
-/*}*/
