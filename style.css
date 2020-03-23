@@ -410,10 +410,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-
 .footer-lines {
+    overflow: hidden;
     display: flex;
     margin: auto;
     padding-top: 2%;
@@ -421,19 +419,36 @@
 }
 
 .footer-lines__line1 {
+
     background: #9B51E0;
     width: 16px;
 }
 
 .footer-lines__line2 {
+
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     width: 90px;
 }
 
 .footer-lines__line3 {
+    animation-name: lol;
+    animation-duration: 3s;
     background: #9B51E0;
     width: 100%;
+}
+
+@keyframes lol {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
 }
 
 .footer-images {
